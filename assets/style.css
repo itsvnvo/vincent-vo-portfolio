@@ -1,0 +1,16 @@
+/* Styles the header and header list*/
+.header {
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ff7300;
+    display: flex;
+    justify-content: space-between
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 20px
+}
