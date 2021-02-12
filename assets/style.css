@@ -1,12 +1,8 @@
 /* Styles the header and header list*/
-body, div, h1, h2, h3, h4, p, ul, img {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 .container {
-    padding: 20px;
+    padding: 10px;
+    border: 10px;
+    margin: 0;
     font-size: 15px;
     font-family: Arial, sans-serif;
     background-color: #000000;
@@ -22,24 +18,29 @@ body, div, h1, h2, h3, h4, p, ul, img {
 }
 
 img {
-    width: 128px;
-    height: 128px;
+    width: 246px;
+    height: 300px;
 }
 
 body {
-	background:lightslategray;
+	background:rgb(184, 184, 184);
 	font-size: 24px; 
     line-height: 24px;
+    border: 0;
+    margin: 0;
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.39);
 }
 
 .box {
-    display: flex;
-    flex-wrap: wrap;
-    width: 128px;
+    width: 246px;
+    height: 300px;
     margin-left: 10px;
     margin-top: 10px;
     padding: 5px;
     border: 2px solid rgb(0, 0, 0);
+    box-shadow: 10px 10px 5px grey;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer h4 ul{
