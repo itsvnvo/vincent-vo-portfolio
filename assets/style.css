@@ -27,6 +27,7 @@
 p {
     display: flex;
     flex-wrap: wrap;
+    text-shadow: 1px 1px rgba(255, 0, 0, 0.39);
 }
 
 img {
@@ -41,7 +42,6 @@ body {
     line-height: 24px;
     border: 0;
     margin: 0;
-    text-shadow: 1px 1px rgba(255, 0, 0, 0.39);
 }
 /* Styles the image boxes for future work */
 .box {
