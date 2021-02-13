@@ -8,7 +8,8 @@ This portfolio will be of my current work, future work, ways to contact me and j
  
  ### About the project
  This will be a accumulation of my journey through learning to be a developer, it will show my progession and milestones that I have reached by showing the work I have made currently in the past, present, and future. \
- You can find this project on my github \ 
+ You can find this project on my github
+ 
  https://github.com/itsvnvo/vincent-vo-portfolio
  
  #### Getting started
