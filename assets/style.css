@@ -1,82 +1,133 @@
-/* Styles the header and header list*/
-.container {
-    padding: 10px;
-    border: 10px;
-    margin: 0;
-    font-size: 15px;
-    font-family: Arial, sans-serif;
-    background-color: #000000;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between
+body
+{
+    line-height: 2.5rem;
+}
+.menuButton
+{
+    position: fixed;
+    top: 25px;
+    left: 35px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background : #fff url(icons8-menu-64.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 150;
 }
 
-.container ul li {
-    display: inline-block;
-    margin-left: 25px;
-    font-size: 20px
+.menuButton.active
+{
+    background : #fff url(icons8-x-men-64.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 150;
 }
-/* Positioning of my self portrait */
-#pictureofme {
-    height: 100%;
+
+.sideMenu
+{
+    position: fixed;
+    background: #000;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 40px;
+    z-index: 1;
+    left: -100%;
+    text-transform: uppercase;
+}
+.sideMenu.active
+{
+    z-index: 2;
+    left: 0;
+    background: #000;
+    width: 20%;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-p {
+.sideMenu ul{
     display: flex;
-    flex-wrap: wrap;
-    text-shadow: 1px 1px rgba(255, 0, 0, 0.39);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
-img {
-    width: 246px;
-    height: 300px;
-}
-
-
-body {
-	background:rgb(184, 184, 184);
-	font-size: 24px; 
-    line-height: 24px;
-    border: 0;
-    margin: 0;
-}
-/* Styles the image boxes for future work */
-.box {
-    width: 246px;
-    height: 300px;
-    margin-left: 10px;
-    margin-top: 10px;
-    padding: 5px;
-    border: 2px solid rgb(0, 0, 0);
-    box-shadow: 10px 10px 5px grey;
-}
-/* styles the main img */
-.box-main img {
-    width: 500px;
-    height: 500px;
-    border: 2px solid rgb(0, 0, 0);
-    padding: 15px;
-    margin-left: 10px;
-}
-/* Styles footer */
-.footer h4 ul{
+.sideMenu ul li
+{
     list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 24px;
 }
-/* Styles the media screens */
-@media screen and (max-width: 992px) {
-    .box-main, .box, #pictureofme {
-       min-width: 75%;
-    }
+.sideMenu ul li a
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-    body {
-    min-width: 50%;
-  }
+.sideMenu ul li a:hover
+{
+    color: tan;
 }
+.title
+{
+    width: 100%;
+    text-align: center;
+}
+.title h2
+{
+    color: tan;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.aboutme p
+{
+    max-width: 700px;
+    display: inline-block;
+    color: white;
+}
+.aboutme
+{
+    background-color: black;
+}
+.resume h3
+{
+    color: tan;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.resume p
+{
+    max-width: 700px;
+    display: inline-block;
+    color: black;
+}
+.resume
+{
+    background-color: white;
+}
+.column img
+{
+    height: 450px;
+    width: 400px
+}
+.column 
+{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
