@@ -1,6 +1,10 @@
 body
 {
     line-height: 2.5rem;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
 }
 .menuButton
 {
@@ -16,6 +20,7 @@ body
     background-repeat: no-repeat;
     cursor: pointer;
     z-index: 150;
+    max-width: 100%;
 }
 
 .menuButton.active
@@ -25,6 +30,7 @@ body
     background-position: center;
     background-repeat: no-repeat;
     z-index: 150;
+    max-width: 100%;
 }
 
 .sideMenu
@@ -39,6 +45,7 @@ body
     z-index: 1;
     left: -100%;
     text-transform: uppercase;
+    max-width: 100%;
 }
 .sideMenu.active
 {
@@ -48,6 +55,7 @@ body
     width: 20%;
     padding-top: 8px;
     padding-bottom: 8px;
+    max-width: 100%;
 }
 
 .sideMenu ul{
@@ -81,25 +89,39 @@ body
 }
 .title h2
 {
-    color: tan;
+    color: whitesmoke;
     font-weight: 600;
     font-size: 40px;
     
 }
 
 .aboutme p
-{
-    max-width: 700px;
+{   
+    max-width: 600px;
     display: inline-block;
-    color: white;
+    color: whitesmoke;
+    font-size: 23px;
 }
 .aboutme
 {
-    background-color: black;
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.aboutme img
+{
+    height: 300px;
+    position: static;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
 .resume h3
 {
-    color: tan;
+    color: whitesmoke;
     font-weight: 600;
     font-size: 40px;
     
@@ -109,25 +131,79 @@ body
 {
     max-width: 700px;
     display: inline-block;
-    color: black;
+    color: whitesmoke;
 }
-.resume
+.work
 {
-    background-color: white;
+    background-image: url(background1.jpg);
+    background-size: cover;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
 .column img
 {
-    height: 450px;
-    width: 400px
+    background-color: tan;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+    max-width: 100%;
+    cursor: pointer;
 }
 .column 
 {
-    float: left;
+    height: 48vh; 
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 30px;
     width: 33.33%;
-    padding: 5px;
   }
-  .row::after {
+  .row::after 
+  {
     content: "";
     clear: both;
     display: table;
+  }
+
+h4
+  {
+    font-size: 35px;
+    font-weight: 500;
+  }
+  .contact-me h3
+{
+    color: tan;
+    font-weight: 600;
+    font-size: 40px;
+    
+}
+
+.contact-me  p
+{
+    display: inline-block;
+    color: black;
+}
+.contact-me 
+{
+    background-color: lightgrey;
+}
+  @media screen and (max-width: 992px) 
+  {
+    .column {
+      width: 50%;
+      height: 50%;
+    }
+    .aboutme img
+    {
+        width: 25%;
+        height: 25%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) 
+  {
+    .menuButton {
+      display: none;
+    }
   }
