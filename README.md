@@ -14,8 +14,8 @@ This portfolio will be of my current work, future work, ways to contact me and j
  
  #### Getting started
  Visit:https://itsvnvo.github.io/vincent-vo-portfolio/ \
- Then freely  use the navigation bar  in the upper right hand corner \
- [![nav-bar.png](https://i.postimg.cc/8kKGDYt5/nav-bar.png)](https://postimg.cc/V5CpWKyQ)
+ Then freely  use the navigation button in the upper left hand corner \
+[![portofolio.png](https://i.postimg.cc/wBdPCngb/portofolio.png)](https://postimg.cc/sMwwS6Bp)
  
  ##### Contact me
  This is my contact information if there is any advice and feedback. \
