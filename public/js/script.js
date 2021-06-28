@@ -5,3 +5,5 @@ function menuToggle(){
     menu.classList.toggle('active')
     sideMenu.classList.toggle('active')
 }
+
+console.log("test")

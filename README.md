@@ -12,7 +12,15 @@ This portfolio will be of my current work, future work, ways to contact me and j
  
  https://github.com/itsvnvo/vincent-vo-portfolio
  
- #### Getting started
+#### Getting started
+
+ `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+
+You will also see any lint errors in the console.
  Visit:https://itsvnvo.github.io/vincent-vo-portfolio/ \
  Then freely  use the navigation button in the upper left hand corner \
 [![portofolio.png](https://i.postimg.cc/wBdPCngb/portofolio.png)](https://postimg.cc/sMwwS6Bp)
