@@ -10,8 +10,6 @@ const Footer = () => (
           Contact me
         </h5>
         <ul>
-          <li>Number:972-834-1816
-          </li>
           <li>
             <a href="https://github.com/itsvnvo" target="_blank">My Github</a>
           </li>

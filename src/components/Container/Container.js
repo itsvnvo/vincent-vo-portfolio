@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Nav from "../Nav/Nav";
+import Navbar from "../Nav/Nav";
 import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import Work from "../pages/Work/Work";
@@ -27,7 +27,7 @@ class Container extends Component {
     render() {
         return (
             <div>
-                <Nav
+                <Navbar
                     currentPage={this.state.currentPage}
                     changeEl={this.changeEl}
                 />

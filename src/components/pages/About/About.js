@@ -3,7 +3,7 @@ import React from "react";
 const Aboutme = () => (
 
     <div class="aboutme" id="about-me">
-        <img src="css/IMG_0681.jpg" alt="Picture of me" />
+        <img src="css/Me1.jpg" alt="Picture of me" />
         <div class="title">
             <h2>About me</h2>
             <p>
