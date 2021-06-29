@@ -23,6 +23,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 You will also see any lint errors in the console.
  Visit:https://itsvnvo.github.io/vincent-vo-portfolio/ \
  Then freely  use the navigation button in the upper left hand corner \
+ New portfolio image\
+ [![new-portfolio.png](https://i.postimg.cc/VkHwyhFr/new-portfolio.png)](https://postimg.cc/1862wJ2s)
+ 
+ Old portfolio image
 [![portofolio.png](https://i.postimg.cc/wBdPCngb/portofolio.png)](https://postimg.cc/sMwwS6Bp)
  
  ##### Contact me
